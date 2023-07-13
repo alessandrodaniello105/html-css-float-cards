@@ -7,3 +7,29 @@
 body {
   font-family: 'Fredoka', sans-serif;
 }
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.staff-box {
+  width: 350px;
+  height: 100px;
+  background-color: black;
+  margin: 20px;
+}
+
+img{
+  max-height: 100%;
+}
