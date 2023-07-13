@@ -4,32 +4,51 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: 'Fredoka', sans-serif;
 }
 
-.container {
+img{
+  max-height: 100%;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container{
   width: 60%;
   margin: 0 auto;
 }
 
-.float-left {
+.float-left{
   float: left;
 }
 
-.clearfix {
+.clearfix{
   content: '';
   display: table;
   clear: both;
 }
 
-.staff-box {
+.staff-box{
   width: 350px;
   height: 100px;
   background-color: black;
   margin: 20px;
+  color: white;
 }
 
-img{
-  max-height: 100%;
+.staff-box .staff-info{
+  padding-top: 10px; 
+  padding-left: 110px;
+}
+
+.staff-info p{
+  margin: 8px 0;
+}
+
+.staff-info p.email{
+  color: blue;
 }
