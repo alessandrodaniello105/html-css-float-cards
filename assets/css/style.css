@@ -57,14 +57,17 @@ section{
   /* min-width: 800px; */
 }
 
+/* CARDS */
+
 .staff-box{
   width: 30%;
-  min-width: 263px;
+  min-width: 292px;
   max-width: 330px;
   height: 100px;
   background-color: black;
   color: white;
   margin: 10px 15px;
+
 }
 
 .staff-box .staff-info{
@@ -74,8 +77,16 @@ section{
 
 .staff-info p{
   margin: 8px 0;
+
 }
 
-.staff-info p.email{
+/* TEST SELETTORI AVANZATI */
+
+.staff-info > p{
+  text-transform: capitalize;
+}
+
+p[class="email"]{
   color: #2AACD4;
+  text-transform: lowercase;
 }
