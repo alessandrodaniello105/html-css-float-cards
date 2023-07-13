@@ -8,13 +8,26 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
-img{
-  max-height: 100%;
+header{
+  height: 100px;
+}
+
+header, .description{
+    text-align: center;
+}
+
+h1{
+  color: #E53070;
+  padding-top: 25px;
 }
 
 h3{
   text-transform: uppercase;
   font-weight: 700;
+}
+
+img{
+  max-height: 100%;
 }
 
 .container{
@@ -32,12 +45,18 @@ h3{
   clear: both;
 }
 
+/* MAIN */
+
+.description{
+  margin-bottom: 30px;
+}
+
 .staff-box{
   width: 350px;
   height: 100px;
   background-color: black;
-  margin: 20px;
   color: white;
+  margin: 20px;
 }
 
 .staff-box .staff-info{
@@ -50,5 +69,5 @@ h3{
 }
 
 .staff-info p.email{
-  color: blue;
+  color: #2AACD4;
 }
